@@ -15,4 +15,9 @@ export const webring: WebringEntry[] = [
     year: 2026,
     url: "https://fitzsixto.com",
   },
+  {
+    name: "Joss Ecleo",
+    year: 2025,
+    url: "https://jossecleo.dev",
+  },
 ];
