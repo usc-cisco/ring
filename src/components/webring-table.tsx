@@ -1,3 +1,4 @@
+import { SITE_CONFIG } from "@/config/site.config";
 import { webring } from "@/data/webring";
 import Fuse from "fuse.js";
 import { useState } from "react";
@@ -70,9 +71,8 @@ export default function WebringTable() {
                 <td className="px-3 py-2 whitespace-nowrap">{entry.year}</td>
                 <td className="px-3 py-2 whitespace-nowrap">
                   <a
-                    rel="noreferrer external"
-                    target="_blank"
-                    href={entry.url}
+                    rel="external"
+                    href={`${entry.url}?utm_source=mywebsite&utm_medium=referral`}
                     className="w-full group link inline-flex items-center gap-1"
                   >
                     <span className="sm:inline hidden">{entry.url}</span>
