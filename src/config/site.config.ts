@@ -10,5 +10,5 @@ export const SITE_CONFIG = Object.freeze({
     "A webring for DCISM students & alumni at the University of San Carlos.",
   logoTitle: "ring.dcism.org",
   logo,
-  githubUrl: "https://github.com",
+  githubUrl: "https://github.com/usc-cisco/ring",
 });
