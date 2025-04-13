@@ -10,4 +10,9 @@ export const webring: WebringEntry[] = [
     year: 2026,
     url: "https://ian.dcism.org",
   },
+  {
+    name: "John Doe",
+    year: 2026,
+    url: "https://example.com",
+  },
 ];
