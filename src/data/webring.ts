@@ -11,8 +11,8 @@ export const webring: WebringEntry[] = [
     url: "https://ian.dcism.org",
   },
   {
-    name: "John Doe",
+    name: "Fitzsixto",
     year: 2026,
-    url: "https://example.com",
+    url: "https://fitzsixto.com",
   },
 ];
