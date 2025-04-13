@@ -1,0 +1,38 @@
+---
+import { Image } from "astro:assets";
+import { SITE_CONFIG } from "@/config/site.config";
+
+import ThemeSwitcher from "@/components/layout/theme-switcher.astro";
+---
+<header class="border-b border-border sticky top-0 bg-background z-50">
+    <nav class="flex justify-between container max-w-5xl mx-auto px-4 pr-1 lg:px-1 p-2">
+        <a href="/" class="flex gap-3 items-center text-foreground font-logo text-lg font-semibold group">
+            <Image src={SITE_CONFIG.logo} class="size-5 rotate-25 not-dark:invert group-hover:animate-spin" alt={`${SITE_CONFIG.title} Logo`} />
+            {SITE_CONFIG.logoTitle}
+        </a>
+        <div class="flex sm:gap-1">
+            <button id="random" class="hover:bg-accent text-foreground rounded-md ease-in-out transition-colors p-2 cursor-pointer">
+                <svg class="size-5" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-arrows-shuffle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 4l3 3l-3 3" /><path d="M18 20l3 -3l-3 -3" /><path d="M3 7h3a5 5 0 0 1 5 5a5 5 0 0 0 5 5h5" /><path d="M21 7h-5a4.978 4.978 0 0 0 -3 1m-4 8a4.984 4.984 0 0 1 -3 1h-3" /></svg>
+            </button>
+            <a href={SITE_CONFIG.githubUrl} class="hover:bg-accent text-foreground rounded-md ease-in-out transition-colors p-2 ">
+                <svg class="size-5" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg>
+            </a>
+            <ThemeSwitcher />
+        </div>
+        
+    </nav>
+    
+</header>
+
+<script>
+    import { webring } from "@/data/webring";
+
+    const randomButton = document.querySelector("#random")!;
+    const possibleLinks = webring.map(entry => entry.url);
+
+    randomButton.addEventListener("click", () => {
+        const randomIndex = Math.floor(Math.random() * possibleLinks.length);
+        const randomUrl = possibleLinks[randomIndex];
+        window.open(randomUrl, "_blank");
+    });
+</script>

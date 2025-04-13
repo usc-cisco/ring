@@ -1,0 +1,41 @@
+---
+import "../styles/global.css";
+import { SITE_CONFIG } from "@/config/site.config";
+
+import "@fontsource-variable/geist";
+import "@fontsource-variable/geist-mono";
+import "@fontsource-variable/bricolage-grotesque";
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>{SITE_CONFIG.title}</title>
+		<meta name="description" content={SITE_CONFIG.description}>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<meta name="generator" content={Astro.generator} />
+
+		<!-- Facebook -->
+		<meta property="og:url" content={SITE_CONFIG.baseUrl}>
+		<meta property="og:type" content="website">
+		<meta property="og:title" content={SITE_CONFIG.title}>
+		<meta property="og:description" content={SITE_CONFIG.description}>
+		<meta property="og:image" content={`${SITE_CONFIG.baseUrl}/opengraph-image.png`}>
+
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta property="twitter:domain" content={SITE_CONFIG.baseUrl.replace("https://", "").replace("http://", "")}>
+		<meta property="twitter:url" content={SITE_CONFIG.baseUrl}>
+		<meta name="twitter:title" content={SITE_CONFIG.title}>
+		<meta name="twitter:description" content={SITE_CONFIG.description}>
+		<meta name="twitter:image" content={`${SITE_CONFIG.baseUrl}/opengraph-image.png`}>
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>
