@@ -28,4 +28,5 @@ jobs:
           password: ${{ secrets.SSH_PASSWORD }}
           port: 22077
           source: "dist/*"
-          target: "~/ring.dcism.org"
+          target: "~/ring.dcism.org/"
+          overwrite: true
