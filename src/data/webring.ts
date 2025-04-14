@@ -50,4 +50,9 @@ export const webring: WebringEntry[] = [
     year: 2026,
     url: "https://princeip.vercel.app/",
   },
+  {
+    name: "Bryan Sanchez",
+    year: 2026,
+    url: "https://github.com/0-BSCode",
+  },
 ];
