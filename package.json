@@ -10,6 +10,7 @@
     "format": "biome format --write ./src",
     "check": "biome check --write ./src",
     "check:fix": "biome check --fix --unsafe ./src",
+    "type-check": "tsc --noEmit ./src/data/webring.ts",
     "prepare": "husky",
     "postinstall": "npm run prepare"
   },

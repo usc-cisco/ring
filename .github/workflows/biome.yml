@@ -17,5 +17,8 @@ jobs:
       - name: Install dependencies
         run: npm i
 
+      - name: Validate webring data
+        run: npm run type-check
+
       - name: Run linter
         run: npm run check && npm run format
