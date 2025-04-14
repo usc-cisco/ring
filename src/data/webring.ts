@@ -19,13 +19,30 @@ export const webring: WebringEntry[] = [
     name: "Zeus E.",
     year: 2026,
     url: "https://elderfieldzeus.vercel.app",
-  },{
+  },
+  {
     name: "Samuel Bongs",
     year: 2026,
     url: "https://sethonne.dev/",
-  },{
+  },
+  {
     name: "Ced Calaycay",
     year: "2026", 
     url: "https://mcdc.dcism.org",
-  }
+  },
+  {
+    name: "Joss Ecleo",
+    year: 2025,
+    url: "https://jossecleo.dev/",
+  },
+  {
+    name: "Ced Calaycay",
+    year: "2026", 
+    url: "https://mcdc.dcism.org",
+  },
+  {
+    name: "Reece Lim",
+    year: 2026,
+    url: "https://portfolio-ui-mauve.vercel.app/",
+  },
 ];
