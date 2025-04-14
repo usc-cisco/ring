@@ -13,7 +13,7 @@
     "enabled": true,
     "formatWithErrors": true,
     "indentStyle": "space",
-    "lineEnding": "crlf",
+    "lineEnding": "lf",
     "lineWidth": 80,
     "indentWidth": 2,
     "attributePosition": "auto"
