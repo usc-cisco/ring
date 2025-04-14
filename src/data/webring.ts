@@ -37,7 +37,7 @@ export const webring: WebringEntry[] = [
   },
   {
     name: "Ced Calaycay",
-    year: "2026", 
+    year: "2026",
     url: "https://mcdc.dcism.org",
   },
   {

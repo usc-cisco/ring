@@ -33,6 +33,10 @@
 
 > Yep, as long as you studied in any of the courses offered by DCISM. Just indicate your graduated year in the webring file.
 
+#### _Can I change my details (name, year, URL) later?_
+
+> Yes! What you can't change, however, is your position in the `webring[]` array. We'll consider randomizing the positions so that this won't be an issue in the future (when more people join). At the moment, please respect the early birds.
+
 ## Credits & Inspiration
 
 This project draws inspiration from the [the University of Waterloo Computer Science Webring](https://github.com/JusGu/uwatering).
