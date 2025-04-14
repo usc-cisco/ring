@@ -6,7 +6,7 @@ export type WebringEntry = {
 
 export const webring: WebringEntry[] = [
   {
-    name: "Ian DJ",
+    name: "Ian D.",
     year: 2026,
     url: "https://ian.dcism.org",
   },
@@ -26,9 +26,9 @@ export const webring: WebringEntry[] = [
     url: "https://sethonne.dev/",
   },
   {
-    name: "Ced Calaycay",
-    year: "2026", 
-    url: "https://mcdc.dcism.org",
+    name: "Shane Barita",
+    year: 2026,
+    url: "https://shanebarita.vercel.app",
   },
   {
     name: "Joss Ecleo",
