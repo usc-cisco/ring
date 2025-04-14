@@ -74,7 +74,7 @@ export const webring: WebringEntry[] = [
     name: "Riel Apos",
     year: 2026,
     url: "https://rieljasperapos.github.io/Portfolio/",
-  }
+  },
   {
     name: "Jemuel Valencia",
     year: "2027",
