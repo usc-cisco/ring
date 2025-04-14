@@ -26,14 +26,19 @@ export const webring: WebringEntry[] = [
     url: "https://sethonne.dev/",
   },
   {
+    name: "Ced Calaycay",
+    year: "2026", 
+    url: "https://mcdc.dcism.org",
+  },
+  {
     name: "Joss Ecleo",
     year: 2025,
     url: "https://jossecleo.dev/",
   },
   {
-    name: "Shane Barita",
-    year: 2026,
-    url: "https://shanebarita.vercel.app",
+    name: "Ced Calaycay",
+    year: "2026", 
+    url: "https://mcdc.dcism.org",
   },
   {
     name: "Reece Lim",
