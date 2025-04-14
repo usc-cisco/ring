@@ -69,5 +69,10 @@ export const webring: WebringEntry[] = [
     name: "Wayne Matthew Dayata",
     year: 2024, 
     url: "https://20100215.github.io/",
+  },
+  {
+    name: "Joshua Patrick Chiu",
+    year: 2026, 
+    url: "https://sweep-portfolio.vercel.app",
   }
 ];
