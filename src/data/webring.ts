@@ -24,7 +24,13 @@ export const webring: WebringEntry[] = [
     name: "Samuel Bongs",
     year: 2026,
     url: "https://sethonne.dev/",
-  }, {
+  },
+  {
+    name: "Joss Ecleo",
+    year: 2025,
+    url: "https://jossecleo.dev/",
+  },
+  {
     name: "Shane Barita",
     year: 2026,
     url: "https://shanebarita.vercel.app",
