@@ -45,4 +45,9 @@ export const webring: WebringEntry[] = [
     year: 2026,
     url: "https://portfolio-ui-mauve.vercel.app/",
   },
+  {
+    name: "Prince Pantino",
+    year: 2026,
+    url: "https://princeip.vercel.app/",
+  },
 ];
