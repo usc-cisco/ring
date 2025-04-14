@@ -26,6 +26,7 @@ import ThemeSwitcher from "@/components/layout/theme-switcher.astro";
 
 <script>
     import { webring } from "@/data/webring";
+    import { SITE_CONFIG } from "@/config/site.config";
 
     const randomButton = document.querySelector("#random")!;
     const possibleLinks = webring.map(entry => entry.url);
@@ -33,6 +34,6 @@ import ThemeSwitcher from "@/components/layout/theme-switcher.astro";
     randomButton.addEventListener("click", () => {
         const randomIndex = Math.floor(Math.random() * possibleLinks.length);
         const randomUrl = possibleLinks[randomIndex];
-        window.open(randomUrl, "_blank");
+        window.open(`${randomUrl}?utm_source=${SITE_CONFIG.baseUrl.replace("https://", "").replace("http://", "")}&utm_medium=referral`, "_blank");
     });
 </script>
