@@ -75,4 +75,9 @@ export const webring: WebringEntry[] = [
     year: 2026,
     url: "https://rieljasperapos.github.io/Portfolio/",
   },
+  {
+    name: "Joshua Chiu",
+    year: 2026,
+    url: "https://sweep-portfolio.vercel.app",
+  },
 ];
