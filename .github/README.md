@@ -21,6 +21,16 @@
    ```
 2. Submit a Pull Request using your fork & wait patiently for maintainer approval.
 
+### Website Guidelines
+
+1. Your URL must link to a personal website, hosted by you.
+2. Your URL must contain content or information of you.
+3. Your URL must not redirect to a product or non-personal website.
+
+If your website does not comply with any of the guidelines above for 14 days, we reserve the right to remove it without prior notice.
+
+Likewise, the maintainers reserve the right to take down entries that are deemed to be counter-productive or harmful to the goal of this webring.
+
 ## Q&A
 
 #### _I'm not in DCISM. Can I still join?_

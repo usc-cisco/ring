@@ -1,13 +1,11 @@
-name: Code Quality Audit
+name: Check Build
 
 on:
-    push:
-      branches: [ main ]
     pull_request:
       branches: [ main ]
 
 jobs:
-  run-biome:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -17,5 +15,5 @@ jobs:
       - name: Install dependencies
         run: npm i
 
-      - name: Run linter
-        run: npm run check && npm run format
+      - name: Build the site
+        run: npm run build
