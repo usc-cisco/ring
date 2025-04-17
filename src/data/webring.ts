@@ -90,6 +90,7 @@ export const webring: WebringEntry[] = [
   year: "2027", 
   url: "https://jimthefatjam.github.io/wikibytes.github.io/", 
   },
+  {
   name: "Jemuel Valencia",
   year: "2027", 
   url: "https://jemueldev.dcism.org/", 
