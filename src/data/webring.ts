@@ -18,7 +18,7 @@ export const webring: WebringEntry[] = [
   {
     name: "Zeus E.",
     year: 2026,
-    url: "https://elderfieldzeus.vercel.app",
+    url: "https://elderfieldzeus.com",
   },
   {
     name: "Samuel Bongs",
@@ -81,14 +81,14 @@ export const webring: WebringEntry[] = [
     url: "https://sweep-portfolio.vercel.app",
   },
   {
-  name: "Jerson Leones",
-  year: "2025", 
-  url: "https://jrsnleons.vercel.app/", 
+    name: "Jerson Leones",
+    year: 2025,
+    url: "https://jrsnleons.vercel.app/",
   },
   {
-  name: "Jemuel Valencia",
-  year: "2027", 
-  url: "https://jimthefatjam.github.io/wikibytes.github.io/", 
+    name: "Jemuel Valencia",
+    year: 2027,
+    url: "https://jimthefatjam.github.io/wikibytes.github.io/",
   },
   {
     name: "Kyne Edric Sia",
