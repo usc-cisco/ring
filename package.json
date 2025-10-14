@@ -25,22 +25,22 @@
   },
   "dependencies": {
     "@astrojs/react": "^4.2.4",
-    "@fontsource-variable/bricolage-grotesque": "^5.2.6",
-    "@fontsource-variable/geist": "^5.2.5",
-    "@fontsource-variable/geist-mono": "^5.2.5",
-    "@tailwindcss/vite": "^4.1.4",
+    "@fontsource-variable/bricolage-grotesque": "^5.2.10",
+    "@fontsource-variable/geist": "^5.2.8",
+    "@fontsource-variable/geist-mono": "^5.2.7",
+    "@tailwindcss/vite": "^4.1.14",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "astro": "^5.7.0",
     "fuse.js": "^7.1.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "sharp": "^0.34.1",
-    "tailwindcss": "^4.1.4"
+    "sharp": "^0.34.4",
+    "tailwindcss": "^4.1.14"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "husky": "^9.1.7",
-    "lint-staged": "^15.5.1"
+    "lint-staged": "^15.5.2"
   }
 }
