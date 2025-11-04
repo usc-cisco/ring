@@ -29,11 +29,11 @@
     "@fontsource-variable/geist": "^5.2.5",
     "@fontsource-variable/geist-mono": "^5.2.5",
     "@tailwindcss/vite": "^4.1.4",
-    "@types/react": "^19.1.2",
+    "@types/react": "^19.2.2",
     "@types/react-dom": "^19.1.2",
     "astro": "^5.7.0",
     "fuse.js": "^7.1.0",
-    "react": "^19.1.0",
+    "react": "^19.2.0",
     "react-dom": "^19.1.0",
     "sharp": "^0.34.1",
     "tailwindcss": "^4.1.4"
