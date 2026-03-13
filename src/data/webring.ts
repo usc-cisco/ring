@@ -105,4 +105,9 @@ export const webring: WebringEntry[] = [
     year: 2027,
     url: "https://giann.dev",
   },
+  {
+    name: "Simon Gementiza",
+    year: 2027,
+    url: "https://saiimonn.vercel.app/"
+  },
 ];
