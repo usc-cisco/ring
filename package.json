@@ -24,7 +24,7 @@
     ]
   },
   "dependencies": {
-    "@astrojs/react": "^4.2.4",
+    "@astrojs/react": "^4.4.1",
     "@fontsource-variable/bricolage-grotesque": "^5.2.6",
     "@fontsource-variable/geist": "^5.2.5",
     "@fontsource-variable/geist-mono": "^5.2.5",
