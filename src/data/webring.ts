@@ -115,4 +115,9 @@ export const webring: WebringEntry[] = [
     year: 2027,
     url: "https://choonhows.github.io"
   },
+  {
+    name: "Nikolai Pazon",
+    year: 2026,
+    url: "https://citadel-codex.com"
+  },
 ];
