@@ -23,11 +23,11 @@ jobs:
       - name: Upload via SCP
         uses: appleboy/scp-action@v0.1.7
         with:
-          host: web.dcism.org
+          host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
-          port: 22077
+          port: ${{ secrets.SSH_PORT }}
           source: "dist/"
-          target: "/data/users/cisco/ring.dcism.org/"
+          target: ${{ secrets.DEPLOY_TARGET }}
           overwrite: true
           strip_components: 1
