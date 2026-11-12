@@ -120,4 +120,9 @@ export const webring: WebringEntry[] = [
     year: 2026,
     url: "https://citadel-codex.com"
   },
+   {
+    name: "Homer Adriel Dorin",
+    year: 2027,
+    url: "https://balaidev.vercel.app/"
+  },
 ];
