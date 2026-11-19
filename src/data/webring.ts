@@ -108,7 +108,7 @@ export const webring: WebringEntry[] = [
   {
     name: "Simon Gementiza",
     year: 2027,
-    url: "https://saiimonn.vercel.app/"
+    url: "https://saiimonn.xaria.dev"
   },
   {
     name: "Chrislyr Tan",
@@ -129,5 +129,15 @@ export const webring: WebringEntry[] = [
     name: "Dustin Jesse Balansag",
     year: 2027,
     url: "https://dasteendev.vercel.app/"
+  },
+  {
+    name: "Niño Calunod",
+    year: 2027,
+    url: "https://nonua.xaria.dev"
+  },
+  {
+    name: "Cris Lawrence Lucero",
+    year: 2027,
+    url: "https://cris.xaria.dev"
   },
 ];
